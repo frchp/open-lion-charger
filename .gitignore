@@ -1,0 +1,6 @@
+# Old project files
+legacy/*
+
+# KiCad backups
+**/*backups
+*bak
