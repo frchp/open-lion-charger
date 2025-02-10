@@ -5,7 +5,7 @@
 	(uuid "7c2008c8-0626-4a09-a873-065e83502a0e")
 	(paper "A4")
 	(title_block
-		(title "Open LiOn charger")
+		(title "Open Lithium iOn charger")
 		(rev "B00")
 	)
 	(lib_symbols
