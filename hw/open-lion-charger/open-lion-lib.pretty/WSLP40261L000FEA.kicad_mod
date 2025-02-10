@@ -1,12 +1,89 @@
-(module WSLP40261L000FEA (layer F.Cu) (tedit 6165D968)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value WSLP40261L000FEA (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at 4.08 -4) (size 2.44 0.89) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -4.08 -4) (size 2.44 0.89) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -4.08 -0.135) (size 2.44 5.6) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 4.08 -0.135) (size 2.44 5.6) (layers F.Cu F.Paste F.Mask))
+(footprint "WSLP40261L000FEA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "R25"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "8129c3a5-9652-4edd-a953-9aee0d60eb4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WSLP40261L000FEA"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "861d11f6-5cce-4290-b9fa-1bd432df3f6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2a837ef-9f33-4bdc-a0c5-d1fd80d243c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94002daa-4132-4337-9e83-1135c78c322e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "918775b2-57e2-4ad6-b5c4-adb47c99e152")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at 4.08 -4)
+		(size 2.44 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "463c6459-c34c-4925-9da4-82c09f5f9520")
+	)
+	(pad "2" smd rect
+		(at -4.08 -4)
+		(size 2.44 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b5f26b0e-ddf0-4700-85e5-7a30f1f76d5b")
+	)
+	(pad "3" smd rect
+		(at -4.08 -0.135)
+		(size 2.44 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "713bf33c-66ea-4d9d-b5df-012212f34a6c")
+	)
+	(pad "4" smd rect
+		(at 4.08 -0.135)
+		(size 2.44 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12785b1b-120d-40eb-9d02-00d18168e9eb")
+	)
 )

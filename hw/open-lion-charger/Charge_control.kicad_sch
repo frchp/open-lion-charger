@@ -4856,7 +4856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "open-lion:SOIC127P600X175-16N"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -5782,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libTX54:AD5663BRMZ-1"
+		(property "Footprint" "open-lion:AD5663BRMZ-1"
 			(at 222.504 17.78 0)
 			(effects
 				(font
@@ -6404,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GKM5R0010FETR"
+		(property "Footprint" "open-lion:WSLP40261L000FEA"
 			(at 65.405 146.939 0)
 			(effects
 				(font
@@ -6560,7 +6560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-5N"
+		(property "Footprint" "open-lion:SOT65P210X110-5N"
 			(at 50.165 169.545 0)
 			(effects
 				(font

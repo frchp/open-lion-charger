@@ -5907,7 +5907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SODFL4725X105N"
+		(property "Footprint" "open-lion:SODFL4725X105N"
 			(at 69.088 43.942 0)
 			(effects
 				(font

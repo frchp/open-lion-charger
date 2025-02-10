@@ -5388,7 +5388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1032X265-16N"
+		(property "Footprint" "open-lion:SOIC127P1032X265-16N"
 			(at 92.964 20.32 0)
 			(effects
 				(font
@@ -5662,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "open-lion:SOT95P280X145-5N"
 			(at 99.822 98.171 0)
 			(effects
 				(font
@@ -7963,7 +7963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libTX54:SOP65P640X120-16N"
+		(property "Footprint" "open-lion:SOP65P640X120-16N"
 			(at 208.788 28.702 0)
 			(effects
 				(font

@@ -4283,7 +4283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libTX54:QFP50P900X900X120-49N"
+		(property "Footprint" "open-lion:QFP50P900X900X120-49N"
 			(at 167.894 66.548 0)
 			(effects
 				(font

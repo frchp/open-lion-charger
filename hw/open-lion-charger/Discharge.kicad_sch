@@ -3866,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libTX54:SOP50P490X110-10N"
+		(property "Footprint" "open-lion:SOP50P490X110-10N"
 			(at 247.142 60.071 0)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GKM5R0010FETR"
+		(property "Footprint" "open-lion:WSLP40261L000FEA"
 			(at 118.872 112.268 0)
 			(effects
 				(font
@@ -5391,7 +5391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GKM5R0010FETR"
+		(property "Footprint" "open-lion:WSLP40261L000FEA"
 			(at 170.688 112.395 0)
 			(effects
 				(font
@@ -6362,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-5N"
+		(property "Footprint" "open-lion:SOT65P210X110-5N"
 			(at 103.632 134.874 0)
 			(effects
 				(font
@@ -6521,7 +6521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-5N"
+		(property "Footprint" "open-lion:SOT65P210X110-5N"
 			(at 155.448 135.001 0)
 			(effects
 				(font

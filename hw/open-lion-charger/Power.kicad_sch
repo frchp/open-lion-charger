@@ -4353,6 +4353,12 @@
 		(uuid "63286bbb-78a3-4368-a50a-f6bf5f1653b0")
 	)
 	(junction
+		(at 55.88 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63b56cc4-d1f3-45ed-b2d0-33271fad89ba")
+	)
+	(junction
 		(at 53.975 73.025)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4369,12 +4375,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7274c82d-0cb9-47de-b093-7d848f491410")
-	)
-	(junction
-		(at 86.614 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88606262-3ac5-44a1-aacc-18b26cf4d396")
 	)
 	(junction
 		(at 187.198 44.45)
@@ -4425,6 +4425,12 @@
 		(uuid "9fdca5c2-1fbd-4774-a9c3-8795a40c206d")
 	)
 	(junction
+		(at 86.614 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b39f0020-db7c-4828-b672-e29af43e9557")
+	)
+	(junction
 		(at 130.556 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4447,12 +4453,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8200a86-aa75-47a3-ad2a-7f4c9c999a6f")
-	)
-	(junction
-		(at 55.88 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0b0947e-ec91-4d8a-8663-5a112b0a8541")
 	)
 	(junction
 		(at 201.168 30.48)
@@ -4605,6 +4605,16 @@
 			(type default)
 		)
 		(uuid "17ff35b3-d658-499b-9a46-ea36063fed4e")
+	)
+	(wire
+		(pts
+			(xy 55.88 46.99) (xy 86.614 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3c474c-8d51-452a-9fdc-73b6bed760b6")
 	)
 	(wire
 		(pts
@@ -5248,16 +5258,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.614 46.99) (xy 99.06 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa23bfe3-454b-4a2b-bfe1-101c747eb84e")
-	)
-	(wire
-		(pts
 			(xy 50.165 75.565) (xy 50.165 78.105)
 		)
 		(stroke
@@ -5365,6 +5365,16 @@
 			(type default)
 		)
 		(uuid "c512fed3-9770-476b-b048-e781b4f3cd72")
+	)
+	(wire
+		(pts
+			(xy 86.614 46.99) (xy 99.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c571fb4d-7a5b-4854-bb42-d7662227df9a")
 	)
 	(wire
 		(pts
@@ -5625,16 +5635,6 @@
 			(type default)
 		)
 		(uuid "fcfb3f77-487d-44de-bd4e-948fbeca3220")
-	)
-	(wire
-		(pts
-			(xy 55.88 46.99) (xy 86.614 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd29cce5-2d5d-4676-956a-df49a3c13d23")
 	)
 	(text "Alimentation à découpage\n12V, 12.5A max"
 		(exclude_from_sim no)
@@ -6167,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIOM5226X240N"
+		(property "Footprint" "open-lion:DIOM5226X240N"
 			(at 130.556 127.254 0)
 			(effects
 				(font
@@ -7289,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "open-lion:SOT230P700X180-4N"
 			(at 268.986 29.21 0)
 			(effects
 				(font
@@ -8248,7 +8248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_OLD:G6QE1ADC12"
+		(property "Footprint" "open-lion:G6QE1ADC12"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -9325,8 +9325,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006174e2ac")
 		(property "Reference" "J7"
 			(at 39.37 44.45 0)
