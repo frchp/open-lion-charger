@@ -4472,6 +4472,7 @@
 	)
 	(label "RST"
 		(at 228.854 45.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4482,6 +4483,7 @@
 	)
 	(label "5V_test"
 		(at 231.14 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4493,6 +4495,7 @@
 	)
 	(label "IOREF"
 		(at 237.49 36.83 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4503,6 +4506,7 @@
 	)
 	(label "5V_test"
 		(at 238.887 141.351 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4514,6 +4518,7 @@
 	)
 	(label "AREF"
 		(at 267.97 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

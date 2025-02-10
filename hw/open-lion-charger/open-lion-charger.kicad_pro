@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.52,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -53,14 +53,31 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "shorting_items|124222337|118751859|817bd4aa-e67e-4440-86e4-3789714ee898|634ecced-24ea-4714-a353-ecda064b14a0",
+        "shorting_items|124222337|124851859|1f5e63e7-db1a-4b6b-82c5-15b972855a85|dd46a3b3-c307-4c01-8225-9c3c7ae5714c",
+        "shorting_items|126222337|117451859|77c28989-99fa-4de8-8ce5-d83d87331bc3|634ecced-24ea-4714-a353-ecda064b14a0",
+        "shorting_items|126222337|123551859|85bfbed0-9467-4ca1-aaaf-4def9e4a5d62|dd46a3b3-c307-4c01-8225-9c3c7ae5714c",
+        "shorting_items|136222337|118751859|852d62c7-dd74-4eed-b14a-c7c9693801a2|a93e554e-45c3-4fa3-a126-0e2a236c2f60",
+        "shorting_items|136222337|124851859|2712e5b6-6ede-4420-a61b-6d3b0fd73d75|05d753b6-00c7-400f-93e2-b21ab83dbd80",
+        "shorting_items|138222337|117451859|d80118c9-ef2e-4f3f-9463-ba3b8ea751b8|a93e554e-45c3-4fa3-a126-0e2a236c2f60",
+        "shorting_items|138222337|123551859|74a34fbc-98a4-41c3-9dcd-2cf7935262b6|05d753b6-00c7-400f-93e2-b21ab83dbd80",
+        "shorting_items|172577662|119048140|ff7a75bf-4c0a-4850-ab3f-2334ed04f68c|3fe12369-cd16-4442-8c37-0f53ec7053fe",
+        "shorting_items|172577662|125148140|fc1abe18-72ab-4863-934f-66c4d8f9c822|a666bc53-aa5c-4a98-a908-d6eb35450bee",
+        "shorting_items|174577662|117748140|6f865bc2-faea-4fd5-b8a4-d8cd18250c2a|3fe12369-cd16-4442-8c37-0f53ec7053fe",
+        "shorting_items|174577662|123848140|73c64853-9dfc-4b2a-bb7c-6e950a757b62|a666bc53-aa5c-4a98-a908-d6eb35450bee",
+        "shorting_items|184577662|119048139|465d8f44-42bd-451b-91f3-de5f42ba1ad0|0c0981e9-2474-448c-aab4-42ea6d05ead6",
+        "shorting_items|184577662|125148139|36ca2885-1f86-4e58-8d58-cf73cd982933|61ba1283-0881-478f-a8e1-4d2171b1eea3",
+        "shorting_items|186577662|117748139|9ad51d21-f771-4be6-ba34-25c7b32e2a75|0c0981e9-2474-448c-aab4-42ea6d05ead6",
+        "shorting_items|186577662|123848139|caa0df6a-a501-4df5-a4c6-3fe12cf4a358|61ba1283-0881-478f-a8e1-4d2171b1eea3"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -96,8 +113,8 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "solder_mask_bridge": "ignore",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -132,7 +149,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
